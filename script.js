@@ -12,7 +12,9 @@ box.addEventListener("mousemove", function (details) {
       insiderectval
     ); // map the x position to a red color value
     box.style.backgroundColor = "rgb(" + redcolor + ", 0, 0)";
-  } else {
+  }
+  
+   else {
     var bluecolor = gsap.utils.mapRange(
       rectposition.width / 2,
       rectposition.width,
